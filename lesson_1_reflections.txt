@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Seeing the differences between the two files side by side made it easy to see where the bug had
+introduced and how to find it.  I would prefer it if the diff utility gave a stronger indicated the line
+in which the changes were introduced.  It does, but it's location format is diffcult to make sense of.
+Still, I was able to find it by means of Sublime's ability to search through text.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+As changes in code pile on over time, a bug might be introduced that is not found until many revisions later.  Pinpointing which change in version introduced a bug narrows the set of changes that could have introduced it and as such make debugging faster.  Also, the fear of breaking the code by changing or refactoring it is reduced and this makes fast prototyping possible.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+They are intended for different purposes.  In Google docs, each file is it's own world.  Git was made for programmers.  Computer programs often have a piece of functionality spread out over multiple files, so a singl logical change often requires changing these files and, but it makes to record the changes as one and that is why it's done.
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can type git log to print a history of all prior commits on the current branch to the console.  Then using git diff <first commit> <second commit> shows a line by line comparison of all the differences between the first and the later.
+
+How might using version control make you more confident to make changes that could break something?
+
+It takes out the fear.  Makes it easy.

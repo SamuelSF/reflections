@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a git repository is created, a hidden .git folder is formed. It holds all of the information git tracks on your projects history.  The exact details of which can only be understood if possesed of specific knowledge concerning git's internal workings.
