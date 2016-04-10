@@ -1,3 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 When a git repository is created, a hidden .git folder is formed. It holds all of the information git tracks on your projects history.  The exact details of which can only be understood if possesed of specific knowledge concerning git's internal workings.
+
+How can you use the staging area to make sure you have one commit per logical change?
+If you've made more than one logical change since the last commit, it is possible to spread the changes over multiple commits.  That way it's all good.
