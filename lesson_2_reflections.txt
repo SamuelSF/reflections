@@ -8,3 +8,5 @@ If you've made more than one logical change since the last commit, it is possibl
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging branches creates a new commit that is a child of the two most recent commits in each of the branches that are being merged.  That is why the commit node in the diagram has two arrows pointing to previous commits.
+
+i bet it will!
