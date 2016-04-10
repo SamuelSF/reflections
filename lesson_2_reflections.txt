@@ -4,3 +4,7 @@ When a git repository is created, a hidden .git folder is formed. It holds all o
 
 How can you use the staging area to make sure you have one commit per logical change?
 If you've made more than one logical change since the last commit, it is possible to spread the changes over multiple commits.  That way it's all good.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging branches creates a new commit that is a child of the two most recent commits in each of the branches that are being merged.  That is why the commit node in the diagram has two arrows pointing to previous commits.
